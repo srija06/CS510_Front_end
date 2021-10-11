@@ -1,1 +1,23 @@
 /* Add your code here */
+
+.blur {
+  filter: blur(4px);
+}
+.grayscale {
+  filter: grayscale(100%);
+}
+.invert {
+  filter: invert(100%);
+}
+.brightness {
+  filter: brightness(200%);
+}
+.saturate {
+  filter: saturate(50);
+}
+.sepia {
+  filter: sepia(100%);
+}
+.contrast {
+  filter: contrast(180%);
+}

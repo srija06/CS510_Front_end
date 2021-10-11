@@ -9,7 +9,63 @@
     <link rel="stylesheet" href="04-form.css" />
   </head>
   <body>
-    <!-- 04 - Form Exercise -->
-    <!-- Add your code below -->
-  </body>
+    <div class="background">
+    <div class="full-form">
+    <h1 style="text-align: center;"><B>INTRO SURVEY</B></h1>
+      <table >
+        <div class="checklist">
+          <form>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+          
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+        
+            <div>
+              <b><label for="Registration Status">Registration Status</label></b>
+              <b>
+                <select>
+                  <option>choose an option</option>
+                  <option>waitlist</option>
+                  <option>registartion successful</option>
+                </select>
+              </b>
+            </div>
+            <div>
+              <div>
+                <p><b>Class Section</b> </p>
+                <input type="radio" name="radio-choice" id="CS 410P" value="CS 410P" required />
+                <label for="radio-choice-1">CS 410P</label>
+                
+                <input type="radio" name="radio-choice" id="CS 510" value="CS 510" required />
+                <label for="radio-choice-2">CS 510</label>
+              </div>
+            <div>
+              <br><b>Have you taken any of the following courses?<br></b>
+                <b>
+                  <input type="checkbox">Programming Languages<br>
+                  <input type="checkbox">Operation Systems<br>
+                  <input type="checkbox">Full Stack Web Development
+              </b>
+            </div>
+            <div> <p>
+              <b colspan="2">Anything else?<br><textarea cols="50" rows="6"></textarea></b>
+            </p></div>
+            <div class="buttons">
+              <input type="submit" value="Submit" />
+            </div>
+            <div class="buttons">
+              <input type="Reset" value="Reset" />
+            </div>
+          </form> 
+        </div>
+      </table>
+    </div>
+  </div>
+    </body>
 </html>
+

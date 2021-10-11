@@ -4,3 +4,25 @@
 */
 
 /* Add your code here */
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+th {
+  background-color: #96d4d4;
+}
+th,
+td {
+  padding: 15px;
+}
+/* .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: blue;
+} */
+table tr:hover td {
+  background-color: powderblue;
+}
+table {
+  border: 1px solid black;
+}
