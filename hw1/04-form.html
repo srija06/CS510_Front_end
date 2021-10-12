@@ -10,11 +10,8 @@
   </head>
   <body>
     <div class="background">
-    <div class="full-form">
-    <h1 style="text-align: center;"><B>INTRO SURVEY</B></h1>
-      <table >
-        <div class="checklist">
-          <form>
+          <form class="container">
+            <h1><B>INTRO SURVEY</B></h1>
             <div>
               <label for="name">Name</label>
               <input type="text" name="name" id="name" required />
@@ -46,14 +43,14 @@
               </div>
             <div>
               <br><b>Have you taken any of the following courses?<br></b>
-                <b>
                   <input type="checkbox">Programming Languages<br>
                   <input type="checkbox">Operation Systems<br>
                   <input type="checkbox">Full Stack Web Development
-              </b>
             </div>
             <div> <p>
-              <b colspan="2">Anything else?<br><textarea cols="50" rows="6"></textarea></b>
+              <b><label for="Anything Else?">Anything Else?:</label></b>
+              <textarea id="Anything Else?" name="Anything Else?" rows="4" cols="50">
+              </textarea>
             </p></div>
             <div class="buttons">
               <input type="submit" value="Submit" />
@@ -62,8 +59,6 @@
               <input type="Reset" value="Reset" />
             </div>
           </form> 
-        </div>
-      </table>
     </div>
   </div>
     </body>
