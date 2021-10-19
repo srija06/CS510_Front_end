@@ -285,33 +285,18 @@ ol.day-grid li:nth-child(35) {
   /* padding: 1rem; */
   border: 2px solid #fff;
 }
-#a1,
-#a2 {
+#box1,
+#box2 {
   background-color: purple;
 }
 
-#n1,
-#n2,
-#n3 {
+#box3 {
   background-color: navy;
 }
 
-#t1,
-#t2,
-#t3,
-#t4,
-#t5 {
+#box4 {
   background-color: teal;
 }
-#l1 {
-  background-color: green;
-}
-#l2 {
-  background-color: green;
-}
-#l3 {
-  background-color: green;
-}
-#l4 {
+#box5 {
   background-color: green;
 }
