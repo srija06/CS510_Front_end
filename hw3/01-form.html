@@ -1,20 +1,65 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JavaScript Form Exercise</title>
+    <title>Form Exercise</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw1/04-form.css"/>
     <script defer src="01-form.js"></script>
   </head>
-  <body class="bg-dark text-dark">
-    <main>
-      <h1>Contact Form</h1>
-      <form action="">
-        <!-- Step 1 - Insert your previous form here -->
-        <!-- Step 2 - Address any responsiveness and/or accessibility issues -->
-      </form>
-    </main>
-  </body>
+  <body>
+    <div class="background">
+          <form id="form" class="container">
+            <h1><B>INTRO SURVEY</B></h1>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+          
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+        
+            <div>
+              <b><label for="Registration Status">Registration Status</label></b>
+              <b>
+                <select name="option" id="option">
+                  <option value="Choose an option" name="option" selected="selected">choose an option</option>
+                  <option value="Registered" name="option">Registered</option>
+                  <option value="waitlist" name="option">Waitlisted</option>
+                </select>
+              </b>
+            </div>
+          <div>
+              <div>
+                <p><b>Class Section</b> </p>
+                <input type="radio" name="radio-choice" id="CS 410P" value="CS 410P" required />
+                <label for="radio-choice-1">CS 410P</label>
+                
+                <input type="radio" name="radio-choice" id="CS 510" value="CS 510" required />
+                <label for="radio-choice-2">CS 510</label>
+              </div>
+            <div>
+              <br><b>Have you taken any of the following courses?<br></b>
+                  <input type="checkbox" name="course" value="Programming Languages" id="PL">Programming Languages<br>
+                  <input type="checkbox" name="course" value="Operation Systems" id="OS">Operation Systems<br>
+                  <input type="checkbox" name="course"  value="Full Stack Web Development" id="FSD">Full Stack Web Development
+            </div>
+            <div> <p>
+              <b><label for="Anything Else?">Anything Else?:</label></b>
+              <textarea id="Anything else?" name="Anything else?" rows="4" cols="50">
+              </textarea>
+            </p></div>
+            <div class="buttons">
+              <input type="submit" name="submit" value="Submit" />
+            </div>
+            <div class="buttons">
+              <input type="Reset" name="reset" value="Reset" />
+            </div>
+          </form> 
+    </div>
+  </div>
+    </body>
 </html>
