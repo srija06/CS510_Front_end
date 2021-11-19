@@ -1,6 +1,12 @@
 body {
   background-color: var(--cyan);
 }
+div {
+  margin: 1%;
+}
+div:hover {
+  background-color: var(--teal);
+}
 
 h1 {
   text-align: center;

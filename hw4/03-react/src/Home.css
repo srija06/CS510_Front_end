@@ -1,0 +1,16 @@
+#background {
+  background-color: rgb(15, 15, 15);
+  color: blanchedalmond;
+}
+
+h1 {
+  margin-bottom: 0% !important;
+  /* margin-top: 5px !important; */
+  padding: 10px;
+  font-size: 20px;
+}
+p {
+  margin-bottom: 0% !important;
+  /* margin-top: 5px !important; */
+  padding: 10px;
+}
